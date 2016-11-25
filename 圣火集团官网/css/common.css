@@ -1,0 +1,83 @@
+body{border-top: 2px solid #c22223}
+.header h1{padding: 15px 0;width: 250px;height: 60px;}
+.header .phone{float: right;width: 200px;height: 30px;background: url(../images/headphone.png)no-repeat;padding:0 35px 29px 55px;font-size: 22px;color: #fff}
+.header ul li a{display: inline-block;margin: 0 30px;padding-bottom: 10px;}
+.header ul li{position: relative;}
+.header .hid{height: 200px;width: 407px;z-index:5;position: absolute;left:30px;top:31px;}
+.header .hid img{width: 210px;height: 98px;}
+.header .hid ol{float:left;width: 150px;text-align: center;background: rgba(235,235,235,0.9);padding:0 0 10px 0;}
+.header .hid ol li{border-bottom: 1px solid #999;padding: 0 0 0 30px;width: 100px;height: 30px;margin:0 10px;text-align: left}
+.header .hid div{padding:20px;float: left;width: 210px;min-height: 156px;background: rgba(255,255,255,0.9)}
+.header .hid div span{font-size: 12px;color:#666;line-height: 20px}
+/*首页*/
+.banner {overflow: hidden;height: 370px;position: relative;}
+.banner img{position: absolute;z-index: -3;min-width: 1000px}
+.banner .text{width: 910px;margin:0 auto;padding-left: 90px}
+.banner .help{width: 260px;height: 100px;text-align: center;}
+.banner .help h2 {font-size: 50px;margin-top: 110px;color: #fff}
+.banner .help p{font-size: 12px;color: #fff;line-height: 30px}
+.banner .help a {display: block;padding:3px 10px;font-size: 12px;color:#fff;background: #38b2ff;border-radius: 5px;width: 100px;margin:0 auto;}
+.deme div {margin: 30px 0 50px 0}
+.deme div h2 a{font-size: 22px;line-height: 50px}
+/*改*/
+.deme div dt {width: 320px;overflow: hidden;height: 200px;position: relative;padding-right: 20px}
+.deme div dt img {position: absolute;left: 0;top: 0;width: 320px;height: 200px;z-index: -1;}
+.deme div dt div{width: 8px;height: 8px;background: rgba(0,250,250,0.8);float: right;margin: 180px 10px 0 0;cursor: pointer;}
+.deme div dd {width: 360px;}
+.deme div dd span{float: left;padding-bottom: 5px;margin-right: 20px;cursor: pointer;}
+.deme div dd span:nth-child(1){border-bottom: 2px solid #f66}
+.deme div dd strong {font-size: 12px;color: #f66}
+.deme div dd ul p{width: 260px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.deme div dd ul p:hover{text-decoration:underline}
+.deme div dd a {line-height: 34px;color: #666}
+.deme div dd em{margin-right: 20px}
+.deme .log p {float: left;margin:0 10px 10px 0;width: 140px;height: 60px;border-radius: 5px;background: #fff}
+.deme .log p:hover{box-shadow: 1px 1px 10px #ccc;-webkit-box-shadow: 1px 1px 10px #ccc;-moz-box-shadow: 1px 1px 10px #ccc;-ms-box-shadow: 1px 1px 10px #ccc;}
+.deme .log a {display: block;margin: 10px 0;color:#666;text-align: center;line-height: 40px}
+.deme .log img {display: block;margin: 0 auto;}
+/*关于圣火*/
+.demg .centernav h2{line-height:65px;padding-left: 20px;background: url(../images/home.png) 0 center no-repeat;background-size: auto 30%}
+.demg .centernav h3{line-height:65px;padding-left: 20px;background: url(../images/right.png) 0 center no-repeat;background-size: auto 30%}
+.demg .centernav li{line-height:65px;float: left;margin: 0 20px;color: #666}
+.demg .centernav li:last-child{margin-right: 0}
+.demf .left{width: 700px;padding:20px 20px 50px 0;border-right: 1px solid #ddd}
+.demf .right{width: 260px;padding-top: 20px}
+.demf .right p{text-align:justify; text-justify:distribute-all-lines;font-size: 12px}
+.demf .right img{background: #e7e6ec;}
+.demg, .bbs {border-bottom: 1px solid #ddd;}
+.bbs {padding: 20px 0;}
+.demf .top a:nth-child(2), .demf .bottom h2{float: left;font-weight: 600; font-size: 18px;white-space:nowrap;text-overflow: ellipsis;overflow: hidden;}
+.demf .top p{float: left;font-size: 12px;line-height: 22px;margin: 5px 0 20px 0; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;color: #666}
+.demf .bottom p{float: left;width: 600px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;color: #666;font-size: 12px}
+.demf .bottom em{font-size: 12px;margin-right: 20px;float: left;color: #666;line-height: 20px;margin-top: 5px} 
+.demf .bottom .bbs a {width: 600px;float: left;font-size: 18px;font-weight: 600;}
+.demf .top img {width: 340px;float: right;margin-top: 20px;font-weight: 600;}
+.demf .date {width: 70px;height: 80px;background: #eee;margin-right: 15px;text-align: center}
+.demf .date span{font-size: 36px;color: #c22223;text-align: center;display: block}
+
+.footer{width: 100%;background: #eee;padding: 30px 0;}
+.footer ul{font-size: 18px;font-weight: bolder;float: left;width: 165px;line-height: 25px}
+.footer li{font-size: 14px;font-weight: normal;line-height: 20px}
+.footer li a {color: #999}
+.footer .right{margin-right:144px;width: 1px;height: 150px;content: ""; background:  -webkit-linear-gradient(#eee, #666, #eee);background: -moz-linear-gradient(#eee, #666, #eee);background: -ms-linear-gradient(#eee, #666, #eee);background:linear-gradient(#eee, #666, #eee);}
+.friend {padding:15px 0;text-align: center;line-height: 20px;color: #999;font-size: 12px}
+.friend a {color: #999}
+
+.bb{box-shadow: 0 2px 0 #c22223}
+/*公共部分*/
+.ftop, .header, .deme, .demf, .demg .centernav {
+	width: 1000px;margin:0 auto;}
+.header .hid, .header .hid div{
+	display: none}
+.demf .right, .header ul, .deme div dd em, .demg .centernav ul{
+	float: right;}
+.demf .date, .demf .left, .demg .centernav h2, .demg .centernav h3, .footer .lx, .footer .right, .deme div dd ul, .deme div dd strong, .deme div dd p, .deme div dt, .deme div dd, .deme div, .header h1, .header ul li {
+	float: left}
+.demf .bottom a, .deme div dd ul, .header .hid div p, .banner, .banner img, .demg {
+	width: 100%;}
+.header .hid ol li a, .header .hid div a{
+	margin: 0;padding:0;}
+.deme div span, .header ul li a, .header ul li em{
+	font-size: 16px}
+.header .phone, .header .hid ol li a{
+	line-height: 30px}
